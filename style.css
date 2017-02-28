@@ -1,0 +1,26 @@
+
+.ng-enter {
+  animation: my_fade_animation 3s linear;
+  -webkit-animation: my_fade_animation 3s linear;
+}
+
+.ng-leave {
+  animation: my_fade_animation 0.8s linear;
+  -webkit-animation: my_fade_animation 0.8s linear;
+}
+
+@keyframes my_fade_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}
+
+@-webkit-keyframes my_fade_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}
+
+body {
+  text-align: center;
+  background-color: blue; 
+
+}

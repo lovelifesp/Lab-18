@@ -1,0 +1,6 @@
+<div class= "quotes">
+  <quote-title></quote-title>
+<p>  {{ data.data.quote }} {{ data.data.author }} </p>
+<p ng-repeat ="quote in data">{{quote.data.quote}} {{quote.data.author}}</p>
+<button ng-click="getQuote()">Quotes</button>
+</div>
