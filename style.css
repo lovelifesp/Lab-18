@@ -22,6 +22,7 @@
 body {
   font-family: 'Rock Salt', cursive;
   color:white;
+  letter-spacing: 10px;
   background-image: url("https://codenewbiesite.files.wordpress.com/2017/01/fizzbuzz.png?w=660");
   background-repeat: no-repeat;
   background-size:cover;
@@ -30,6 +31,7 @@ body {
 
 div{
   background-color: rgba(45, 41, 41, 0.64);
+  border: double 6.5px;
   padding: 60px;
   margin-left: 50px;
   margin-right: 50px;
@@ -41,6 +43,7 @@ li{
 
 button{
   background-color: black;
+  border: double 7.5px white;
   font-family: 'Rock Salt', cursive;
   color:white;
 }
