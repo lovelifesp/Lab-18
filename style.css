@@ -19,6 +19,46 @@
   to { opacity:0; }
 }
 
+
+@media(max-width:1000px) {
+    #container {
+        width: 80%;
+    }
+
+}
+
+
+
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+a {
+text-decoration: none;
+}
+
+
+html{
+  height: 100%
+}
+
+
 body {
   font-family: 'Rock Salt', cursive;
   color:white;
