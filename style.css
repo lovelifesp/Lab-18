@@ -20,7 +20,42 @@
 }
 
 body {
+  font-family: 'Rock Salt', cursive;
+  color:white;
+  background-image: url("https://codenewbiesite.files.wordpress.com/2017/01/fizzbuzz.png?w=660");
+  background-repeat: no-repeat;
+  background-size:cover;
   text-align: center;
-  background-color: blue; 
+}
 
+div{
+  background-color: rgba(45, 41, 41, 0.64);
+  padding: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  background-color: black;
+  font-family: 'Rock Salt', cursive;
+  color:white;
+}
+
+
+a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    color: yellow;
 }
